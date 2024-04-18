@@ -1,0 +1,73 @@
+.recover-container {
+  width: 25rem;
+  height: 25rem;
+  margin: 20px 0px 0px 90px;
+}
+
+.recover-sso-text {
+  font-family: "Volkhov", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin-top: 6rem;
+}
+
+.recover-input-container {
+  width: 100%;
+  height: 7rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.recover-input-container input {
+  width: 100%;
+  height: 2rem;
+  border: none;
+  outline: none; 
+  border-bottom: 1px solid #9D9D9D;
+}
+
+.recover-input-container input[type="number"]::-webkit-inner-spin-button,
+.recover-input-container input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.recover-confirmation {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid black;
+  color: black;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 2rem;
+}
+
+.recover-confirmation:hover {
+  color: white;
+  background: black;
+} 
+
+
+.recover-account {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.recover-account span {
+    color: #5B86E5;
+}

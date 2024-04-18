@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: #DCF4FE;
+}
+
+.border {
+  padding: 50px;
+  background: white;
+  border-radius: 10px;
+}
+
+.register-container-parent {
+  width: 58rem;
+  height: 32rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #DBDBDB;
+}
+
+.RegisterImage {
+  width: 40%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.register-right-container {
+  width: 60%;
+  height: 100%;
+}
+
+.register-logo {
+  font-family: "Volkhov", serif;
+  font-size: 35px;
+  font-weight: 400;
+  color: #484848;
+  margin: 25px 0px 0px 90px;
+}
+
+.register-container {
+  width: 25rem;
+  height: 25rem;
+  margin: 20px 0px 0px 90px;
+}
+
+.reg-sso-text {
+  font-family: "Volkhov", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+.reg-sso-google {
+  width: 12rem;
+  height: 2rem;
+  border: 1px solid #5B86E5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 29px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.reg-sso-google:hover {
+  background: #5B86E5;
+  color: white;
+}
+
+.reg-sso-google img {
+  width: 18px;
+  height: 18px;
+}
+
+.reg-sso-google h1 {
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.reg-input-container {
+  width: 100%;
+  height: 10rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.reg-input-container input {
+  width: 100%;
+  height: 2rem;
+  border: none;
+  outline: none; 
+  border-bottom: 1px solid #9D9D9D;
+}
+
+.reg-input-container input[type="number"]::-webkit-inner-spin-button,
+.reg-input-container input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.reg-create {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  border: 1px solid black;
+  color: black;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 1.5rem;
+}
+
+.reg-create:hover {
+  color: white;
+  background: black;
+} 
+
+
+.have-account {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.have-account span {
+    color: #5B86E5;
+}
