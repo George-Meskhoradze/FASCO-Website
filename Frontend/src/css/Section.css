@@ -1,6 +1,7 @@
 .section-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -98,4 +99,540 @@
 .shop-button-main:-webkit-any-link:hover {
     color: black;
     background: transparent;
+}
+
+.images-box {
+    width: 80%;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.section-three {
+    width: 100%;
+    height: 35rem;
+    background: #FAFAFA;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.three-section-container {
+    width: 90%;
+    display: flex;
+    align-items: start;
+}
+
+.left-stuff-container {
+    width: 35%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.box-for-text {
+    width: 28rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.box-for-text h1 {
+    font-family: "Volkhov", serif;
+    font-size: 46px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.box-for-text p {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A8A8A;
+}
+
+.buy-btn {
+    width: 13rem;
+    height: 3rem;
+    border-radius: 10px;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.buy-btn:hover {
+    color: black;
+    background: transparent;
+}
+
+.time-box-container {
+    width: 28rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.time-box-container h1 {
+    font-family: "Poppins", serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.calendar-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.time div {
+    width: 4.75rem;
+    height: 4.75rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 13px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time div h1 {
+    font-family: 'Digital Numbers', sans-serif;
+    font-size: 32px;                                         
+}
+
+.time h1 {
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.right-slide-container {
+    width: 65%;
+    padding: 3.2rem 0rem 0rem 6rem;
+}
+
+.swiperimg {
+    width: 17rem;
+    height: 25rem;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    width: 15px;
+    height: 15px;
+    background: black;
+    border: 1px solid black;
+}
+
+.swiper-slide.swiper-slide-active {
+    height: 28rem;
+}
+
+.swiper-slide.swiper-slide-active .swiperimg {
+    height: 28rem;
+}
+
+.outfits {
+    width: 100%;
+    height: 95rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outfit-container {
+    width: 80%;
+    height: 95rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+}
+
+.outfit-header {
+    width: 60%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.outfit-header h1 {
+    font-family: "Volkhov", serif;
+    font-size: 46px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.outfit-header p {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A8A8A;
+    text-align: center;
+}
+
+.outfit-navbar {
+    width: 80%;
+    height: 4rem;
+    margin-top: 5rem;
+}
+
+.outfit-navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.outfit-navbar ul li {
+    transition: all 0.4s ease;
+}
+
+.unactive {
+    list-style: none;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8A8A8A;
+    cursor: pointer;
+}
+
+.outfit-navbar ul .active {
+    list-style: none;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8A8A8A;
+    background: black;
+    cursor: pointer;
+}
+
+.outfit-collectionOne-container {
+    width: 100%;
+    height: 68rem;
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.outfit-collection {
+    width: 100%;
+    height: 58.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.9rem;
+    margin-top: 3rem;
+}
+
+.one-outfit-container {
+    width: 24rem;
+    height: 27rem;
+    border-radius: 10px;
+    background: white;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.one-outfit-container:hover {
+    transform: scale(1.02);
+}
+
+.about-outfit {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.name-clothe {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.clothe-description-one {
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #8A8A8A;
+}
+
+.clothe-description-two {
+    font-family: "Poppins", serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 25px;
+}
+
+.clothe-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.price {
+    font-family: "Poppins", serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.items-available {
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FF4646;
+}
+
+.show-more-button {
+    width: 13rem;
+    height: 3rem;
+    border-radius: 10px;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-more-button:hover {
+    background: transparent;
+    color: black;
+}
+
+
+.blinders {
+    width: 100%;
+    height: 36rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 9rem;
+}
+
+.first-blinders {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-blinders {
+    width: 40%;
+    height: 100%;
+    background: #DADADA;
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-blinders::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    border-left: 2px solid black;
+    background-color: #DADADA; /* Color of the rotated side */
+    transform-origin: top left;
+    transform: rotate(20deg);
+}
+
+.blinders-text-container {
+    width: 33rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    position: relative;
+}
+
+.blinder-woman-collection, .blinder-text-header,
+.blinder-text-description, .blinder-description, 
+.Size  h1, .Size div p {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #767676;
+}
+
+.blinder-text-header {
+    font-family: "Volkhov", serif;
+    font-size: 46px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.blinder-text-description {
+    color: #000;
+    text-decoration: underline;
+}
+
+.Size {
+    width: 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Size div {
+    width: 53px;
+    height: 28px;
+    border-radius: 5px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Size div p {
+    color: white;
+}
+
+.blinders-text-container button {
+    width: 13rem;
+    height: 3.5rem;
+    background: #000;
+    border-radius: 10px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.blinders-text-container button:hover {
+    background: transparent;
+    color: black;
+}
+
+.info-about {
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-child {
+    width: 80%;
+    height: 12.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-container {
+    width: 17rem;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.info-container img {
+    width: auto;
+    height: 50px;
+}
+
+
+
+.info-container div {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+  
+.info-first-child {
+    grid-row: 1 / span 3; 
+    width: 50px;
+    height: 50px;
+}
+  
+.info-second-child,
+.info-third-child {
+    height: 25px; 
+}
+  
+.info-first-child,
+.info-second-child,
+.info-third-child {
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #484848;
+}
+
+.info-third-child {
+    font-size: 16px;
 }
