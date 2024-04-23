@@ -636,3 +636,215 @@
 .info-third-child {
     font-size: 16px;
 }
+
+
+
+/* new section of insta pics */
+
+
+
+.follow-insta {
+    width: 100%;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.insta-header, .customer-header {
+    width: 38rem;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: auto;
+    gap: 20px;
+}
+
+.insta-header h1, .customer-review h1 {
+    font-family: "Volkhov", serif;
+    font-size: 46px;
+    font-weight: 400;
+    color: #484848;
+    text-align: center;
+}
+
+.insta-header p, .customer-review p {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A8A8A;
+    text-align: center;
+}
+
+.insta-images {
+    width: 80%;
+    height: 24rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* customer review section starts from here */
+
+
+
+.customer-review {
+    width: 100%;
+    height: 52.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    margin-top: 10rem;
+    background: #FAFAFA;
+    padding-top: 6rem;
+}
+
+.customer-header {
+    width: 45.5rem;
+    height: 6.5rem;
+}
+
+.review-slide-container {
+    width: 45rem;
+    height: 25rem;
+}
+
+.swiper-slide.swiper-slide-active{
+    width: 40.5rem;
+    height: 19rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding-inline: 2rem;
+}
+
+.customer-img {
+    width: 15rem;
+    height: 15rem;
+    background-size: center;
+    background-position: center;
+    object-fit: cover;
+}
+
+.review-info {
+    width: 22rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.review-info p {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #484848;
+    text-align: start;
+}
+
+.review-info h1 {
+    font-family: "Volkhov", serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #484848;
+    margin-top: 15px;
+
+}
+
+.review-info div {
+    width: 15rem;
+    height: 2px;
+    background: #484848;
+    margin-top: 5rem;
+}
+
+.review-swiper {
+    height: 22rem;
+}
+
+
+
+
+
+/* this section is footer model girl and boy */
+
+
+
+
+
+.footer-section-models {
+    width: 80%;
+    height: 47rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section-models img {
+    height: 40rem;
+}
+
+.footer-model-text {
+    width: 40rem;
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-model-text div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 25px;
+}
+
+.footer-model-text div p, .email {
+    width: 100%;
+    line-height: 26px;
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8A8A8A;
+    text-align: center;
+}
+
+.email {
+    font-size: 22px;
+}
+
+.footer-model-text h1 {
+    width: 100%;
+    font-family: "Volkhov", serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #484848;
+    text-align: center;
+}
+
+.footer-model-text button {
+    width: 207px;
+    height: 57px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border: 1px solid black;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-model-text button:hover {
+    background: transparent;
+    color: black;
+}
+
